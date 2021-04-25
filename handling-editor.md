@@ -4,25 +4,25 @@
 
 I copied the vehiclechecker.lua from baseevents.lua and made a client-only variant. The events are as follows:
 
-* clientEnteredVehicle
+### clientEnteredVehicle
 
 Returns:
 ```lua
 vehicleId, seat, displayName
 ```
 
-* clientLeftVehicle
+### clientLeftVehicle
 
 Returns:
 ```lua
 vehicleId, seat, displayName
 ```
 
-* clientEnterVehicleAborted
+### clientEnterVehicleAborted
 
 No returned values
 
-* clientEnteringVehicle
+### clientEnteringVehicle
 
 Returns:
 ```lua
